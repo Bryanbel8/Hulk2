@@ -1,0 +1,7 @@
+{
+  "name": "hulk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
