@@ -1,11 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start" routerLink="../tab1">
+      <ion-back-button defaultHref="home" text="INICIO"></ion-back-button>
+    </ion-buttons>
     <ion-title>
       Ubicacion
     </ion-title>
+    <ion-buttons slot="end" routerLink="../tab4">
+      <ion-icon slot="icon-only" name="map-outline"></ion-icon>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
  <center><h1>Esta es la ubicacion de nuestro gimnasio</h1></center>
+ <center><h2>Presidente Eulalio Gutierrez 18<br>Colonia: Lazaro Cardenas<br> a una cuadra del campo monarcas<br>para mas informacion Whatsapp 6675228061</h2>
+</center>
+<center>
+  <th class="text2">
+    Da clic en el siguiente boton para abrir el mapa<br>
+    </th>
+
+<ion-button href="https://goo.gl/maps/Yd5eWQ7gPQkeNjMc8">Mapa</ion-button></center>
+<ion-fab vertical="bottom" horizontal="end" slot="fixed" >
+  <ion-fab-button href="https://api.whatsapp.com/send/?phone=5216673821761&text&app_absent=0">
+    <ion-icon name="logo-whatsapp" ></ion-icon>
+  </ion-fab-button>
+</ion-fab>
+<ion-row>
+  <ion-col size="12">
+    <img src="/assets/imagenes/Horario.jpg" />
+  </ion-col>
+</ion-row>
 </ion-content>

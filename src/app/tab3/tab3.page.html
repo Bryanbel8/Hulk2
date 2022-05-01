@@ -1,16 +1,80 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
+    <ion-buttons slot="start" routerLink="../tab1">
+      <ion-back-button defaultHref="home" text="INICIO"></ion-back-button>
+    </ion-buttons>
     <ion-title>
       Costos
     </ion-title>
+    <ion-buttons slot="end" routerLink="../tab4">
+      <ion-icon slot="icon-only" name="map-outline"></ion-icon>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
- <center><h1>Estos son los costos<br><br>
-
+ <center><h1>Estos son los costos<br><br></h1></center>
+<center><h2>
   Precios<br>
-  Mensualidad:400$<br>
-  Semana:150$<br>
-  Dia:30$</h1></center>
+  Mensualidad:$400<br>
+  Semana:$150<br>
+  Dia:$30<br><br></h2>
+<br>
+<th class="text2">
+  Da clic en el siguiente boton para ver las instalaciones<br>
+  </th>
+  
+  <ion-button routerLink="../tab2">Instalaciones</ion-button> <br><br></center>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed" >
+    <ion-fab-button href="https://api.whatsapp.com/send/?phone=5216673821761&text&app_absent=0">
+      <ion-icon name="logo-whatsapp" ></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  <th class="text2">
+  Si estas interesado en comprar algun producto contactanos con el boton de whatsapp
+  </th>
+  <ion-list>
+    <ion-list-header> Productos </ion-list-header>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/imagenes/pre.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Preentreno Psychotic</h2>
+        <h3>500$</h3>
+        <p>Incrementa tu fuerza y rendimiento<br> en el ejercicio</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/imagenes/multi.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Multivitaminico</h2>
+        <h3>400$</h3>
+        <p>Ayuda a la recuperacion muscular<br>y te mantiene fuerte</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/imagenes/proteina.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Proteina</h2>
+        <h3>1200$</h3>
+        <p>Ayuda a fortalecer tu masa muscular<br>y llegar a la proteina adecuada</p>
+      </ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/imagenes/creatina.jpg" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Creatina</h2>
+        <h3>400$</h3>
+        <p>aumenta masa muscular y <br>aumenta tu rendimiento</p>
+      </ion-label>
+    </ion-item>
+    </ion-list>
+    
 </ion-content>

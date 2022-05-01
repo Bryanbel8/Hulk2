@@ -1,5 +1,21 @@
-h1{
+h1{ 
+    background: #aaa6a6;
     color: darkgreen;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30%;
+}
+h2{
+    background: #393b3d;
+    color: rgb(41, 201, 148);
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5%;
+}
+.text2{
+    background: #144238;
+    width: 35%;
+    max-width: 1920px;
+    margin: auto;
+    border-radius: 20px;
 }

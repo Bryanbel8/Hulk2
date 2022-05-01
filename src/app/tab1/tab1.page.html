@@ -3,9 +3,41 @@
     <ion-title>
       HulkGym - Bienvenido
     </ion-title>
+    <ion-buttons slot="end" routerLink="../tab4">
+      <ion-icon slot="icon-only" name="map-outline"></ion-icon>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" class="ion-padding">
-  <center><h1>Bienvenidos a la pagina de Hulk Gym aqui encontraras informacion sobre nuestro establecimiento</h1></center>
+  <img src="/assets/imagenes/hulk.jpg">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Tu mejor opcion</ion-card-subtitle>
+      <ion-card-title>HulkGym</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      En HulkGym contamos con buenos equipos de calidad
+    para que vengas a hacer tus ejercicios con comodidad,
+    tambien contamos con area refrigerada para que te
+    pongas mamadisimo como hulk, tambien te ofrecemos
+    servicios como venta de preenteno entre otros.
+    </ion-card-content>
+  </ion-card>
+  
+  <center><h1>Bienvenido a la app de Hulk Gym</h1></center>
+  <center>
+    <ion-button color="success" routerLink="../tab3">Precios</ion-button> <ion-button href="https://www.tiktok.com/@adrians.fit">Rutinas</ion-button></center>
+    <ion-fab vertical="bottom" horizontal="end" slot="fixed" >
+      <ion-fab-button href="https://api.whatsapp.com/send/?phone=5216673821761&text&app_absent=0">
+        <ion-icon name="logo-whatsapp" ></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+    <ion-row>
+      <ion-col size="12">
+        <img src="/assets/imagenes/Medidas.jpg" />
+      </ion-col>
+    </ion-row>
+    
 </ion-content>
